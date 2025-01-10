@@ -1,0 +1,286 @@
+{
+  "tabs": [
+    {
+      "title": "服务器设置",
+      "key": "serverSettings",
+      "parameters": [
+        {
+          "name": "ServerName",
+          "label": "Server Name",
+          "type": "text",
+          "placeholder": "Enter Server Name",
+          "default": "Default Palworld Server"
+        },
+        {
+          "name": "ServerDescription",
+          "label": "Server Description",
+          "type": "textarea",
+          "placeholder": "Enter Server Description",
+          "default": ""
+        },
+        {
+          "name": "AdminPassword",
+          "label": "Admin Password",
+          "type": "password",
+          "placeholder": "Enter Admin Password",
+          "default": ""
+        },
+        {
+          "name": "ServerPassword",
+          "label": "Server Password",
+          "type": "password",
+          "placeholder": "Enter Server Password",
+          "default": ""
+        },
+        {
+          "name": "PublicPort",
+          "label": "Server Port",
+          "type": "number",
+          "placeholder": "Enter Public Port",
+          "default": 8211
+        },
+        {
+          "name": "PublicIP",
+          "label": "Server IP",
+          "type": "text",
+          "placeholder": "Enter Server IP",
+          "default": ""
+        },
+        {
+          "name": "RCONEnabled",
+          "label": "Enable RCON",
+          "type": "checkbox",
+          "default": true
+        },
+        {
+          "name": "RCONPort",
+          "label": "RCON Port",
+          "type": "number",
+          "placeholder": "Enter RCON Port",
+          "default": 25575
+        },
+        {
+          "name": "RESTAPIEnabled",
+          "label": "Enable REST API",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "name": "RESTAPIPort",
+          "label": "REST API Port",
+          "type": "number",
+          "placeholder": "Enter REST API Port",
+          "default": 8212
+        },
+        {
+          "name": "Region",
+          "label": "Region",
+          "type": "text",
+          "placeholder": "Enter Region",
+          "default": ""
+        },
+        {
+          "name": "BanListURL",
+          "label": "Ban List URL",
+          "type": "text",
+          "placeholder": "Enter Ban List URL",
+          "default": "https://api.palworldgame.com/api/banlist.txt"
+        },
+        {
+          "name": "ServerPlayerMaxNum",
+          "label": "Max Number of Players",
+          "type": "number",
+          "placeholder": "Enter Max Players",
+          "default": 32
+        },
+        {
+          "name": "CoopPlayerMaxNum",
+          "label": "Max Co-op Player Party Size",
+          "type": "number",
+          "placeholder": "Enter Max Co-op Players",
+          "default": 4
+        }
+      ]
+    },
+    {
+      "title": "游戏设置",
+      "key": "gameSettings",
+      "parameters": [
+        {
+          "name": "Difficulty",
+          "label": "Game Difficulty",
+          "type": "text",
+          "placeholder": "Enter Difficulty",
+          "default": "None"
+        },
+        {
+          "name": "DayTimeSpeedRate",
+          "label": "Day Time Speed Rate",
+          "type": "number",
+          "placeholder": "Enter Day Time Speed Rate",
+          "default": 1.0
+        },
+        {
+          "name": "NightTimeSpeedRate",
+          "label": "Night Time Speed Rate",
+          "type": "number",
+          "placeholder": "Enter Night Time Speed Rate",
+          "default": 1.0
+        },
+        {
+          "name": "ExpRate",
+          "label": "Experience Rate",
+          "type": "number",
+          "placeholder": "Enter Experience Rate",
+          "default": 1.0
+        },
+        {
+          "name": "PalCaptureRate",
+          "label": "Pal Capture Rate",
+          "type": "number",
+          "placeholder": "Enter Pal Capture Rate",
+          "default": 1.0
+        },
+        {
+          "name": "PalSpawnNumRate",
+          "label": "Pal Spawn Rate",
+          "type": "number",
+          "placeholder": "Enter Pal Spawn Rate",
+          "default": 1.0
+        },
+        {
+          "name": "PalDamageRateAttack",
+          "label": "Pal Damage Rate Attack",
+          "type": "number",
+          "placeholder": "Enter Pal Damage Rate Attack",
+          "default": 1.0
+        },
+        {
+          "name": "PalDamageRateDefense",
+          "label": "Pal Damage Rate Defense",
+          "type": "number",
+          "placeholder": "Enter Pal Damage Rate Defense",
+          "default": 1.0
+        },
+        {
+          "name": "PlayerDamageRateAttack",
+          "label": "Player Damage Rate Attack",
+          "type": "number",
+          "placeholder": "Enter Player Damage Rate Attack",
+          "default": 1.0
+        },
+        {
+          "name": "PlayerDamageRateDefense",
+          "label": "Player Damage Rate Defense",
+          "type": "number",
+          "placeholder": "Enter Player Damage Rate Defense",
+          "default": 1.0
+        },
+        {
+          "name": "DeathPenalty",
+          "label": "Death Penalty",
+          "type": "select",
+          "options": [
+            { "value": "None", "label": "None" },
+            { "value": "Item", "label": "Item" },
+            { "value": "ItemAndEquipment", "label": "Item and Equipment" },
+            { "value": "All", "label": "All" }
+          ],
+          "default": "All"
+        },
+        {
+          "name": "ItemWeightRate",
+          "label": "Item Weight Rate",
+          "type": "number",
+          "placeholder": "Enter Item Weight Rate",
+          "default": 1.0
+        }
+      ]
+    },
+    {
+      "title": "高级设置",
+      "key": "advancedSettings",
+      "parameters": [
+        {
+          "name": "bEnablePlayerToPlayerDamage",
+          "label": "Enable Player-to-Player Damage",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "name": "bEnableFriendlyFire",
+          "label": "Enable Friendly Fire",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "name": "bEnableInvaderEnemy",
+          "label": "Enable Invader Enemy",
+          "type": "checkbox",
+          "default": true
+        },
+        {
+          "name": "bActiveUNKO",
+          "label": "Enable UNKO",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "name": "bIsMultiplay",
+          "label": "Enable Multiplayer",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "name": "bIsPvP",
+          "label": "Enable PvP",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "name": "bHardcore",
+          "label": "Enable Hardcore",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "name": "bShowPlayerList",
+          "label": "Enable Player List",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "name": "bPalLost",
+          "label": "Permanent Pal Loss on Death",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "name": "bInvisibleOtherGuildBaseCampAreaFX",
+          "label": "Enable Show Basecamp Area",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "name": "bBuildAreaLimit",
+          "label": "Enable Build Area Limit",
+          "type": "checkbox",
+          "default": false
+        },
+        {
+          "name": "bIsUseBackupSaveData",
+          "label": "Enable Backup Save Data",
+          "type": "checkbox",
+          "default": true
+        },
+        {
+          "name": "MaxBuildingLimitNum",
+          "label": "Max Building Limit",
+          "type": "number",
+          "placeholder": "Enter Max Building Limit",
+          "default": 0
+        }
+      ]
+    }
+  ]
+}
