@@ -2,11 +2,16 @@
 
 An Electron application with React and TypeScript
 
-## Recommended IDE Setup
+使用 Electron 自带 Node.js 环境，可以在main进程启动一个 http server,
+从而与 render 进程 http 通信交互。并且打包后可以通过http server 渲染页面。这样就同时存在桌面端和网页端。
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## Preview
 
-## Project Setup
+**Desktop**
+![desktop](/docs/images/desktop.png "Magic Gardens")
+
+**Web**
+![web](/docs/images/web.png "Magic Gardens")
 
 ### Install
 
